@@ -1,38 +1,111 @@
-.App {
+.background {
+  background-image: url('./Images/underwater.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.Login {
   text-align: center;
+  margin-top: 150px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-field {
+  display: block;
+  margin: auto;
+  height: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 20px;
+  background-color: cornsilk;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button-field {
+  font-size: 15px;
+  height: 40px;
+  width: 15%;
+  background-color: darkorange;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button-field.button-add {
+  margin-top: 40px;
+}
+.title {
+  font-size: 40px;
+  color: black;
+  position: relative;
+  bottom: 25px;
+}
+.error-field {
+  color: red;
+  display: block;
+}
+.table {
+  width: 100%;
+  border: 5px solid grey;
+  height: 20em;
+  margin-top: 35px;
+  background-color: aquamarine;
+}
+.table > thead {
+  font-size: large;
+  background-color: brown;
+}
+.display-table-header {
+  border: 1px solid black;
+}
+.sub-title {
+  font-size: -webkit-xxx-large;
+  text-transform: uppercase;
+}
+.header {
+  text-align: center;
+  margin-top: 70px;
+}
+.add-table {
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 7px solid grey;
+  height: 20em;
+  margin-top: 35px;
+  background-color: aquamarine;
+}
+.add-row {
+  margin-top: 15px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
+.add-span {
+  font-size: larger;
+  margin-left: 60px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-tax-span {
+  font-size: larger;
+  margin-left: 45px;
+  margin-top: 35px;
+}
+.add-tax {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.add-tax-div2 {
+  margin-right: 160px;
+}
+.logout-button {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  font-size: larger;
+  height: 40px;
+  background-color: darkorange;
+}
+.delete-button {
+  cursor: pointer;
+  background-color: burlywood;
+  height: 35px;
 }
